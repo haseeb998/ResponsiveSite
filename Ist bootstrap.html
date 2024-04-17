@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Voltonic Solutions</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-6 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"
+          ><img
+            src="images/voltonic.jpg"
+            alt="Voltonic-logo"
+            style="height: 75px; width: 100%"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What You'll Learn?</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">Questions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Instructors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ShowCase -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning">Web Developer</span></h1>
+            <p class="lead my-4">
+              My name is Abdul Haseeb. I am currently working in
+              <span class="text-primary">Voltonic Solution</span> as a Frontend
+              Web Developer. Trying to grasp over some concepts of
+              <span class="text-warning">bootstrap & javaScript.</span>
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll">
+              Start Enrollment
+            </button>
+          </div>
+          <img
+            class="w-50 d-none d-sm-block"
+            src="images/showcase.svg"
+            alt="showcase" />
+        </div>
+      </div>
+    </section>
+    <!-- NewsLetter -->
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign Up for our Newsletter.</h3>
+          <div class="input-group news-input">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter Your Email" />
+            <button class="btn btn-dark btn-lg" type="button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Boxes -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-3">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Opinion</h3>
+                <p class="card-text">
+                  Being an interne in Voltonic Solutions. I am learning new
+                  concepts of <span class="text-warning">Web Development.</span>
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">Work</h3>
+                <p class="card-text">
+                  Done many projects along famous companies within and without
+                  the country.
+                </p>
+                <a href="#" class="btn btn-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">Our Expertise</h3>
+                <p class="card-text">
+                  With a senior staff that has unique mastery of aging systems
+                  and modern automation.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Learn Sections -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img
+              src="images/fundamentals.svg"
+              class="img-fluid"
+              alt="Js-Picture" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Learn The Fundamentals</h2>
+            <p class="lead">
+              HTML and CSS are scripting languages used to create a web page and
+              web applications. HTML provides web page structure, whereas CSS is
+              mainly used to control web page styling.
+            </p>
+            <p>
+              JavaScript is a scripting language used to create and control
+              dynamic website content, i.e. anything that moves, refreshes, or
+              otherwise changes on your screen without requiring you to manually
+              reload a web page.
+            </p>
+            <a href="#" class="btn btn-light bg-secondary text-light mt-3">
+              <i class="bi bi-chevron-right"></i>Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark">
+      <div class="container">
+        <div class="row align-items-center justify-content-between text-light">
+          <div class="col-md p-5">
+            <h2>Learn React</h2>
+            <p class="lead">
+              React is a JavaScript library developed by Facebook which, among
+              other things, was used to build Instagram.com.
+            </p>
+            <p>
+              It aims to allow developers to create fast user interfaces for
+              websites and applications alike easily. The main concept of React.
+              js is virtual DOM. React Js is a globally used Front-end JS
+              framework and is popular with both software developers and project
+              sponsors.
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>Read More
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="images/react.svg" class="img-fluid" alt="Js-Picture" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Questions Accordion -->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- First Item -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one">
+                Our Goals
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Our Goal is to have each and every one of our clients feel proud
+                to have Voltonic Solution (private) Limited as part of their
+                team. We listen. We help discover what is needed and then we
+                develop and deliver dependable, creative, and efficient
+                solutions.
+              </div>
+            </div>
+          </div>
+          <!-- Second Item  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two">
+                Our Mission
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions">
+              <div class="accordion-body">
+                “Our mission is to empower every person and every organization
+                on the planet to achieve more.”
+              </div>
+            </div>
+          </div>
+          <!-- Third Item -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three">
+                Contact Us
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions">
+              <div class="accordion-body">
+                21 km, Ferozepur Road, Masjid Ibrahim Street, Industrial Area,
+                Lahore, Pakistan. sales@voltonic.net +92 42 35342223
+                sales@voltonic.net | voltonic@outlook.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="instructors" class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white">Our Team</h2>
+        <p class="text-center text-white mb-5">
+          With a senior staff that boasts many years of combined experience,
+          Voltonic Solution (private) Limited has a unique mastery of both aging
+          systems and modern automation.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="images/haseeb 2.jpg"
+                  alt="Haseeb's image"
+                  class="rounded-circle mb-3 w-50" />
+                <h4>Abdul Haseeb</h4>
+                <p>
+                  A fresh graduate and an intern in
+                  <span class="text-primary">Voltonic Solutions.</span>
+                </p>
+                <a href="#" class="btn btn-dark">
+                  <i class="bi bi-chevron-right"></i>Read More
+                </a>
+                <div class="pt-2">
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="images/ishaq.jpeg"
+                  alt="ishaq's image"
+                  class="rounded-circle mb-3 w-50" />
+                <h4>M. Ishaq</h4>
+                <p>
+                  Director at
+                  <span class="text-primary">Voltonic Solutions </span>Pvt. Ltd.
+                </p>
+                <a href="#" class="btn btn-dark">
+                  <i class="bi bi-chevron-right"></i>Read More
+                </a>
+                <div class="pt-2">
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="images/zubair.jpg"
+                  alt="zubair's image"
+                  class="rounded-circle mb-3 w-50" />
+                <h4>M. Zubair</h4>
+                <p>
+                  A front-end developer at
+                  <span class="text-primary">Voltonic Solutions.</span>
+                </p>
+                <a href="#" class="btn btn-dark">
+                  <i class="bi bi-chevron-right"></i>Read More
+                </a>
+                <div class="pt-2">
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="images/bilal.jpg"
+                  alt="bilal's image"
+                  class="rounded-circle mb-3 w-50" />
+                <h4>M. Bilal</h4>
+                <p>Manager Creative & Development</p>
+                <a href="#" class="btn btn-dark">
+                  <i class="bi bi-chevron-right"></i>Read More
+                </a>
+                <div class="pt-2">
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact & Building Picture -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md text-center mb-4">
+            <h2>Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">
+                  <i class="bi bi-geo-alt-fill"></i> Main Location:
+                </span>
+                Green Cap Housing Scheme, Lahore.
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">
+                  <i class="bi bi-phone-fill"></i> Phone Num:
+                </span>
+                0300 9168605
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">
+                  <i class="bi bi-clock-fill"></i> Hours:
+                </span>
+                9:00 - 5:00 (Mon to Fri)
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">
+                  <i class="bi bi-envelope-fill"></i> Email:
+                </span>
+                sales@voltonic.net
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <img src="images/pic.jpeg" alt="Building" class="h-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="conatiner">
+        <p>Copyright &copy; 2024 Voltonic Solution (Pvt.) Ltd.</p>
+        <hr />
+        Developed by: Voltonic Solution Tech Team
+        <a href="#" class="position-absolute bottom-0 end-0">
+          <i class="bi bi-arrow-up-circle h1 m-5"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="enroll"
+      tabindex="-1"
+      aria-labelledby="enrollLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enrollLabel">
+              Enroll yourself in
+              <span class="text-primary">Voltonic Solution </span>(Pvt.) Ltd.
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Fill out this form and we will get back to you</p>
+            <form>
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                  First Name:
+                </label>
+                <input
+                  type="text"
+                  class="form-control bg-light"
+                  id="first-name" />
+              </div>
+              <div class="mb-3">
+                <label for="last-name" class="col-form-label">
+                  Last Name:
+                </label>
+                <input
+                  type="text"
+                  class="form-control bg-light"
+                  id="last-name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="email" class="form-control bg-light" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="col-form-label">Phone:</label>
+                <input type="tel" class="form-control bg-light" id="phone" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
